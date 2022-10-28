@@ -1,4 +1,5 @@
-﻿int namberA = 13;
-int numberB = 10000052;
-int result = namberA + numberB;
-Console.WriteLine(result);
+﻿int namberA = new Random().Next(1, 10); // 1 2 3 4 ..9
+Console.WriteLine(namberA); 
+int namberB = new Random().Next(1, 10);
+console.WriteLine(namberB);
+Console.WriteLin(result);
