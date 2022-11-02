@@ -13,13 +13,15 @@ while (day >= 1 || day <= 7)
         Console.WriteLine("Выходной день!");
         day = Convert.ToInt32(Console.ReadLine());
     }
-    else
+    if( day >=1 || day>=5)
     {
         Console.WriteLine("Рабочий день!");
         day = Convert.ToInt32(Console.ReadLine());
     }
-}
+    else
 Console.WriteLine("Ошибка: в неделе только 7 дней");
 day = Convert.ToInt32(Console.ReadLine());
+}
+
 
 
